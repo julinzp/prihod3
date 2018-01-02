@@ -1,0 +1,152 @@
+.main-nav {
+  width:100vh;    
+  height:45px;
+
+  position:fixed;
+  -webkit-transform-origin: left top;
+  -webkit-transform:rotate(-90deg) translateX(-100%);
+
+}
+ul.nav li {    
+  margin-right:20px;
+  float:right;
+  height:100%;
+  line-height:45px;
+}
+.main-nav a{
+  color:black;
+}
+
+.header{
+  min-height: 500px;
+  z-index: 200;
+  position: absolute;
+}
+.img1 img{
+   width: 200%;
+    height: auto;
+    margin-top: 29%;
+    margin-left: 10%;
+    z-index: 1;
+    opacity: 1;
+  }
+.grey_block span{
+    display:block;
+    width:700px;
+   position:relative; 
+   top:-750px;
+   left:700px;
+   height:700px;
+   background:black;
+   z-index:-1;
+   opacity: 0.5;
+  }
+.grey_block p{
+  position: relative;
+  z-index:100;
+  font-size:45pt;
+  color:white;
+  font-family: 'Lora', 
+  serif;top:-20em; 
+  left:13em; 
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 960px) {
+    .main-nav {
+        background: red;
+    }
+    .grey_block span{
+    display:block;
+    width:700px;
+   position:relative; 
+   top:-400px;
+   left:40px;
+   height:500px;
+   background:black;
+   z-index:-1;
+   opacity: 0.5;
+  }
+  .img1 img{
+    width:300%;
+    height: 400;
+    margin-top: 29%;
+    margin-left: 10%;
+    z-index: 1;
+    opacity: 1;
+  }
+  .grey_block p{
+  z-index:10000;
+  font-size:23pt;
+  color:white;
+  font-family: 'Lora', serif;
+  line-height: 1;
+  opacity: 0.7;
+}
+}
+@media screen and (min-width:480px) and (max-width:800px){
+  .main-nav {
+        background: blue;
+    }
+    .grey_block span{
+    display:block;
+    width:700px;
+   position:relative; 
+   top:-400px;
+   left:40px;
+   height:500px;
+   background:black;
+   z-index:-1;
+   opacity: 0.5;
+  }
+  .img1 img{
+    width:2
+    200%;
+    height: 400;
+    margin-top: 29%;
+    margin-left: 10%;
+    z-index: 1;
+    opacity: 1;
+  }
+  .grey_block p{
+  z-index:10000;
+  font-size:23pt;
+  color:white;
+  font-family: 'Lora', serif;
+  line-height: 1;
+  opacity: 0.7;
+}
+
+}
+@media screen and (min-width:961px) and (max-width:2000px) {
+    .main-nav {
+        background: purple;
+    }
+    .grey_block span{
+    display:block;
+    width:700px;
+   position:relative; 
+   top:-400px;
+   left:40px;
+   height:500px;
+   background:black;
+   z-index:-1;
+   opacity: 0.5;
+  }
+  .img1 img{
+    width:200%;
+    height: 400;
+    margin-top: 29%;
+    margin-left: 10%;
+    z-index: 1;
+    opacity: 1;
+  }
+  .grey_block p{
+  z-index:10000;
+  font-size:23pt;
+  color:white;
+  font-family: 'Lora', serif;
+  line-height: 1;
+  opacity: 0.7;
+}
+}
